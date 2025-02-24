@@ -101,8 +101,8 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px; /* Fixed height to make it square */
-    width: 400px; /* Fixed width to make it square */
+    height: 400px; 
+    width: 400px; 
     margin: 0 auto;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -158,8 +158,11 @@ footer {
         font-size: 14px;
     }
     .form {
-        width: 100%;
+        width: 90%;
         height: auto;
         padding: 10px;
+    }
+    input, textarea {
+        width: 100%;
     }
 }
